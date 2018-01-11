@@ -63,6 +63,7 @@
     width: 650px;
     height: 500px;
     border: 5px solid #dddddd;
+    background-color: #fff;
     float: left;
     margin-top: 20px;
     position: absolute;
@@ -169,4 +170,31 @@ p {
     color: #FDFEFE;
     text-align: center;
     margin-top: 28px;
+}
+
+/* styling for pics in portfolio gallery */
+
+.pictures {
+    width: 390px;
+    height: 570px;
+    background-color: #fff;
+    border: 5px solid #dddddd;
+    float: left;
+    margin-top: 10px;
+    position: absolute;
+    left: 20%;
+}
+
+.portpics {
+
+    height: 165px;
+    width: 145px;
+}
+
+.left {
+    margin: 10px 15px 10px 35px;
+}
+
+.right {
+    margin: 10px 20px 10px 15px; 
 }
