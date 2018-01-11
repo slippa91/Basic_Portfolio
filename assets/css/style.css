@@ -1,5 +1,5 @@
 
-
+/* Header Box */
 .head {
     font-family: "Georgia", Times, Times New Roman, serif;
     width: 100%;
@@ -10,7 +10,7 @@
     width: 100%
     
 }
-
+ /* Name element */
 .name {
     background-color: #4aaaa5;
     color: #FDFEFE;
@@ -24,7 +24,7 @@
     left: 10%;
     
 }
-
+/* Page links */
 .pages {
     position: absolute;
     font-size: 25px;
@@ -35,13 +35,13 @@
     
 
 }
-
+/*  Inline UL */
 .pages li {
     display: inline;
     margin: 10px;
 
 }
-
+/* styling for center link - border on sides */
 .port {
     border-color: silver;
     padding: 0 7px 0 7px;
@@ -50,39 +50,123 @@
 }
 
 
+/* styling for big background box*/
+.background {
+    width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+}
+
+/* box for the bio section includes heading text and image in div*/
 
 .bio {
     width: 650px;
     height: 500px;
-    background-color: yellow;
+    border: 5px solid #dddddd;
     float: left;
+    margin-top: 20px;
     position: absolute;
     left: 10%;
     
 }
 
+/* top banner of bio section */
 .aboutme {
     width: 650px;
     height: 75px;
-    background-color: green;
-    font-size: 30px;
+    border-bottom: 2px solid #dddddd;
+    font-size: 35px;
+    font-weight: bold;
     color: #4aaaa5;
     
 }
 
+/*  positioning for 'about me' text */
+#am {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font: #4aaaa5;
+
+}
+/* formatting for box with image and text */
+
 .info {
     width: 650px;
     height: 425px;
-    background-color: pink;
     font-size: 22px;
-    font: #4aaaa5;
-    
+
+    }
+
+p {
+    font: #777777;
 }
 
-#image{
+
+/* formatting image */
+#image {
     height: 250px;
     width: 250px;
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* style for the contact box */
+
+.contact {
+    width: 270px;
+    height: 200px;
+    background-color: #4aaaa5;
+    float: right;
+    position: absolute;
+    right: 10%;
+    margin-top: 95px;
+    border: 2px solid #dddddd;
+    
+}
+ 
+/* style for Connect with me Text */
+.connectme {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* styling for links as a group Page links */
+
+ .links {
+     margin-top: 50px;
+ }   
+
+
+/*  Inline Links */
+.links li {
+ 
+    display: inline;
+    margin: 10px;
+    
+}
+
+/* styling the footer*/
+
+.foot {
+    width: 100%;
+    height: 70px;
+    border-color: silver;
+    border-bottom: solid 5px #ccc;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    border-style-bottom: 2px solid silver;
+
+}
+
+.crtext {
+    color: #FDFEFE;
+    text-align: center;
+    margin-top: 28px;
 }
