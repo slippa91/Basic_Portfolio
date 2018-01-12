@@ -17,7 +17,7 @@
     background-color: #4aaaa5;
     color: #FDFEFE;
     text-align: center;
-    font-size: 40px;
+    font-size: 55px;
     height: 70px;
     padding-left: 20px;
     padding-right: 20px;
@@ -218,6 +218,7 @@ p {
     margin-top: 10px;
     position: absolute;
     left: 15%;
+    overflow: scroll;
 }
 
 .portpics {
